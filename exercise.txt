@@ -1,0 +1,24 @@
+var PI = 3.14;
+PI = 42; // stop me from doing this!
+
+Here's how you stop it:
+const PI = 3.14;
+PI = 42; // this is impossible now
+
+Quiz:
+Var is scoped to the function while let is scopped to a block. 
+Var is also hoisted and can be referred to in an earlier line in the code, earlier than where the initialization of the variable happened.
+Let is not hoisted.
+Var can be reassigned and redeclared while let can only be reassigned.
+
+Var is scoped to the function while const is scoped to a block.
+Var is hoisted and can be referred to in a line that is earlier in code that the point of that variable's initialization.
+Const is not hoisted.
+Const cannot be redeclared or reassigned while var can be redeclared and reassigned.
+
+Let and const are both block scoped.
+Let can be reassigned but not redeclared
+Const cannot be reassigned or redeclared.
+
+Hoisting happens with var when all the var variables initializations happen at the beginning of the scope. 
+Hoisting does not happen with let or const.
